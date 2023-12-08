@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 991px) {
+    
+    body, html {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .row {
+        width: 100vw;
+        height: auto;
+    }
+
+    .main-block {
+        height: auto;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #paragrafoesquerdo {
+        text-align: center;
+    }
+
+    #selo { 
+        margin-left: auto; 
+        padding: 0px;
+    }
+
+    #solicite {
+        margin-left: auto;
+        margin-top: 23px;
+    }
+
+    #carteira {
+        margin: auto;
+        max-width: 80%;
+        margin-top: 60px;
+    }
+
+    #listadireita, #listaesquerda {
+        display: block;
+        margin-top: 100px;
+        margin-right: 50px;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    body, html {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .row {
+        width: 100vw;
+        height: auto;
+    }
+
+    .main-block {
+        height: auto;
+    }
+
+    #selo { 
+        margin-left: auto; 
+        padding: 0px;
+    }
+
+    #solicite {
+        margin-left: auto;
+        margin-top: 23px;
+    }
+
+    #carteira {
+        max-width: 90%;
+        margin-top: 150px;
+    }
+
+    #mapa {    
+        max-width: 100px;    
+    
+    }
+    
+    #tickets {
+        width: 100px;   
+    
+    }
+    
+    #onibus {
+        width: 200px;   
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1375px) {
+    #listadireita {
+       padding-top: 20%;
+       max-width: 94%;
+       margin-bottom: 30px;
+    }
+
+    #mapa {    
+        max-width: 110px;    
+    
+    }
+    
+    #tickets {
+        width: 110px;   
+    
+    }
+    
+    #onibus {
+        width: 210px;   
+    }
+
+
+    #listadireita li {
+        margin-left: 30px;
+    }
+}
