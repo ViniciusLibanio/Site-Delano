@@ -112,7 +112,11 @@ h2 {
     list-style: none;
     display: flex;   
     line-height: 1.3rem;
-    justify-content: space-evenly;
+    padding-left: 70px;
+}
+
+#listadireita li {
+    padding-left: 20px;
 }
 
 /*TESTE*/
